@@ -5,6 +5,14 @@ public class WeatherReport {
     private double temperature;
     private double humidity;
 
+    public WeatherReport(double temperature, double humidity) {
+        this.temperature = temperature;
+        this.humidity = humidity;
+    }
+
+    public WeatherReport() {
+
+    }
 
     public double getTemperature() {
         return temperature;
